@@ -2,7 +2,7 @@
 session_start();
 $reply = array();
 
-	$to_email ='imran.khan@cybosol.com';
+	$to_email ='imran.30mohamed@gmail.com';
 	mail($to_email, "xcx", "xZcxzc");
 	$email_subject = $_POST['subject']; 
 	$mail_header = "From: ".$_POST["email"]."\r\n"; 
