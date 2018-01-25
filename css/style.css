@@ -683,6 +683,9 @@ a.morebtn:hover {
     color: #fff;
    padding: 50px 0;
 }
+.serviceBlk {
+    background: #f4f4f4 !important;
+    }
     .jobslist ul li {
     width: 100%;
     display: block;
@@ -701,4 +704,13 @@ a.morebtn:hover {
     margin-top: 0;
     width: 100%;
 }
+.clientBlk ul li:nth-child(2n+2), .clientBlk ul li:last-child {
+    border-right: 0;
+}
+.clientBlk ul li:nth-child(3n+3), .clientBlk ul li:last-child {
+    border-right: 1px solid #eee;;
+}
+.clientBlk ul li {
+    width: 49%;
+ }
 }
