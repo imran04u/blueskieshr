@@ -681,12 +681,24 @@ a.morebtn:hover {
     font-size: 20px;
     line-height: 28px;
     color: #fff;
-    }
+   padding: 50px 0;
+}
     .jobslist ul li {
     width: 100%;
     display: block;
 }
 .jobslist {
 	float: none
+}
+.aboutBlk, .serviceBlk {
+    padding:   40px 0;
+}
+.abtcontent {
+	margin: 0 15px;
+}
+.abtcontent h3 {
+	position: relative;
+    margin-top: 0;
+    width: 100%;
 }
 }
