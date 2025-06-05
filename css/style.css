@@ -1,48 +1,48 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Vie
-    Theme URI: http://
-    Description: Creative Agency & Portfolio
-    Author: UI-ThemeZ
-    Author URI: http://themeforest.net/user/UI-ThemeZ
-    Version: 1.0
+Theme Name: Vie
+Theme URI: http://
+Description: Creative Agency & Portfolio
+Author: UI-ThemeZ
+Author URI: http://themeforest.net/user/UI-ThemeZ
+Version: 1.0
 
 -----------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
 == Table Of Content
 
-    |--- BASE
+|--- BASE
 
-        |- typography
-        |- helper classes
+|- typography
+|- helper classes
 
-    |--- SHORTCODES
+|--- SHORTCODES
 
-        |- extra
-        |- overlay
-        |- section-heading
-        |- buttons
-        |- navbar
-        |- sliders
-        |- intro
-        |- feature-box
-        |- clients
-        |- counter
-        |- portfolio
-        |- process
-        |- progress-bar
-        |- tabs
-        |- team
-        |- testimonials
-        |- blog
-        |- contact-form
-        |- footers
+|- extra
+|- overlay
+|- section-heading
+|- buttons
+|- navbar
+|- sliders
+|- intro
+|- feature-box
+|- clients
+|- counter
+|- portfolio
+|- process
+|- progress-bar
+|- tabs
+|- team
+|- testimonials
+|- blog
+|- contact-form
+|- footers
 
-    |--- BASE
+|--- BASE
 
-        |- responsive
-	
+|- responsive
+
 
 
 ---------------------------------------------------------------- */
@@ -323,7 +323,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					 text color
+text color
 -------------------------------------------------------*/
 .text-white {
   color: #FFF;
@@ -338,7 +338,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					font-weight
+font-weight
 -------------------------------------------------------*/
 .fw-100 {
   font-weight: 100 !important;
@@ -377,7 +377,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					 font-size
+font-size
 -------------------------------------------------------*/
 .fz-10 {
   font-size: 10px !important;
@@ -428,7 +428,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					line-height
+line-height
 -------------------------------------------------------*/
 .line-height-10 {
   line-height: 10px;
@@ -531,7 +531,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					text-transform
+text-transform
 -------------------------------------------------------*/
 .text-u {
   text-transform: uppercase !important;
@@ -554,7 +554,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-					 letter-spacing
+letter-spacing
 -------------------------------------------------------*/
 .ls0 {
   letter-spacing: 0px !important;
@@ -585,7 +585,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-			 margin-top  (0/100) +5
+margin-top  (0/100) +5
 -------------------------------------------------------*/
 .mt-0 {
   margin-top: 0 !important;
@@ -676,7 +676,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-			 margin-bottom  (0/100) +5
+margin-bottom  (0/100) +5
 -------------------------------------------------------*/
 .mb-0 {
   margin-bottom: 0 !important;
@@ -767,7 +767,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-			padding-top  (0/100) +5
+padding-top  (0/100) +5
 -------------------------------------------------------*/
 .pt-0 {
   padding-top: 0 !important;
@@ -854,7 +854,7 @@ a:hover, span:hover {
 }
 
 /*-------------------------------------------------------
-		 padding-bottom  (0/100) +5
+padding-bottom  (0/100) +5
 -------------------------------------------------------*/
 .pb-0 {
   padding-bottom: 0 !important;
@@ -1656,10 +1656,14 @@ a:hover, span:hover {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: transparent;
+  background-color: rgba(255, 255, 255, 0.7);
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 80px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
 }
 
 .navbar .icon-bar {
@@ -1673,11 +1677,19 @@ a:hover, span:hover {
 .navbar .navbar-nav .nav-link {
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #111;
   padding: 15px 7px;
   margin: 10px 15px;
 }
-
+.navbar .navbar-nav li.nav-item:last-child a {
+  background-color: #80c436;
+  border-radius: 50px;
+  height: 35px;
+  color: #fff;
+  font-weight: 500;
+  padding: 0 15px;
+  line-height: 35px;
+}
 .navbar .navbar-nav .dropdown-menu {
   padding: 10px 0;
   border: 0;
@@ -3023,11 +3035,11 @@ a:hover, span:hover {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity .5s,
- visibility .5s;
+  visibility .5s;
   -o-transition: opacity .5s,
- visibility .5s;
+  visibility .5s;
   transition: opacity .5s,
- visibility .5s;
+  visibility .5s;
 }
 
 .slider-bus .caption p {
@@ -3275,9 +3287,98 @@ a:hover, span:hover {
 }
 
 /* ====================== [ End Slider ] ====================== */
+/* About Us Home */
+.aboutBlk {
+  padding:90px 0 50px 0; 
+}
+.aboutBlk h5 {
+  color: #0374a6;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.aboutBlk h2 {
+  color: #000;
+  font-family: "Carnas Light";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.aboutBlk p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  color: #333;
+  padding-left: 50px;
+}
+.aboutBlk p:first-child {
+  margin-top: 25px;
+}
+.aboutBlk .abtimg {
+  float: right;
+  margin-top: 40px;
+}
+.abtcontent h3 {
+  position: relative;
+  margin-top: -250px;
+  position: relative;
+  z-index: 99;
+  width: 550px;
+  padding: 50px 40px;
+  float: left;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #ffffff;
+  background: #0271c0;
+  background: -moz-linear-gradient(left, #0271c0 0%, #1299f9 100%);
+  background: -webkit-linear-gradient(left, #0271c0 0%, #1299f9 100%);
+  background: linear-gradient(to right, #0271c0 0%, #1299f9 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0271c0', endColorstr='#1299f9', GradientType=1);
+}
+.abtcontent h3 span {
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+}
+.abtcontent h3:before {
+  content: '';
+  background: url(../img/quotes.png) no-repeat left top;
+  width: 80px;
+  height: 80px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+}
+.clear {
+  clear: both;
+}
+.serviceban {
+  background: #f4f4f4 url(../img/clientsban.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.serviceban h2 {
+  text-align: center;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #fff;
+  padding: 100px 0;
+}
+.serviceban h2 span {
+  font-weight: 600;
+  color: #ff0;
+  
+}
 /* ====================== [ Start showcase ] ====================== */
 .showcase-full .parallax-slider .swiper-slide .bg-img {
-  background-position: center center;
+  background-position: center right;
 }
 
 .showcase-full .parallax-slider .caption {
@@ -4194,6 +4295,9 @@ a:hover, span:hover {
 /* ====================== [ Start services ] ====================== */
 .services {
   position: relative;
+}
+.services.section-padding {
+  padding: 90px 0 60px 0 !important;
 }
 
 .services .container {
@@ -7779,7 +7883,7 @@ footer .item .logo p {
   color: #eee;
 }
 footer .item .social {
-    display: none;
+  display: none;
 }
 footer .item .social a {
   width: 40px;

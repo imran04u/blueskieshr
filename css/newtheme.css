@@ -170,9 +170,9 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom right, #34005f, #34005f);
-    background-image: -moz-linear-gradient(to bottom right, #34005f, #34005f);
-    background-image: -webkit-linear-gradient(to bottom right, #34005f, #34005f);
+    background-image: linear-gradient(to bottom right, #0271c0, #0271c0);
+    background-image: -moz-linear-gradient(to bottom right, #0271c0, #0271c0);
+    background-image: -webkit-linear-gradient(to bottom right, #0271c0, #0271c0);
     opacity: .8;
     z-index: 0;
 }
