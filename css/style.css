@@ -8151,7 +8151,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 200px;
   }
 
   .nav-scroll .icon-bar,
@@ -8536,7 +8536,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 40px;
+    width: 200px;
   }
 
   .hamenu .menu-links .main-menu>li {
@@ -8827,6 +8827,61 @@ footer .item .copy-right p a {
   .intro-section .htit {
     margin-bottom: 15px;
   }
+
+  .services-wrap li {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .services-wrap li .img {
+    width: 100%;
+    min-width: 100%;
+    height: 200px;
+  }
+  .aboutBlk h2 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.aboutBlk p {
+    padding-left: 0px;
+}
+.abtcontent h3 {
+    margin-top: 0;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.aboutBlk .abtimg {
+    float: none;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.servGrid li {
+    width: 100% !important;
+    float: none !important;
+    height: 250px;
+    padding: 0 !important;
+    margin: 0 0 20px 0 !important;
+    border: none !important;
+}
+.servGrid li img {
+    width: 100%;
+    min-height: 250px !important;
+    object-fit: cover !important;
+}
+.serviceban h2 {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 60px 0;
+}
+.hmeindustries .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -8918,6 +8973,13 @@ footer .item .copy-right p a {
 
   .sec-head h3 {
     font-size: 20px;
+    line-height: 30px;
+  }
+
+  .services-wrap li .desc h6,
+  .services-wrap li .desc h6 b {
+    font-size: 20px;
+    margin-bottom: 5px;
   }
 
   .sec-head h2 {
