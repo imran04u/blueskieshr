@@ -8673,8 +8673,9 @@ footer .item .copy-right p a {
   }
 
   .pages-header {
-    padding: 120px 0 80px;
+    padding: 100px 0 40px 0;
     overflow-x: hidden;
+    min-height: auto;
   }
 
   .works-header .capt h2 {
@@ -8838,53 +8839,101 @@ footer .item .copy-right p a {
     min-width: 100%;
     height: 200px;
   }
+
   .aboutBlk h2 {
     font-size: 30px;
     line-height: 38px;
     margin-bottom: 10px;
-}
-.aboutBlk p {
+  }
+
+  .aboutBlk p {
     padding-left: 0px;
-}
-.abtcontent h3 {
+  }
+
+  .abtcontent h3 {
     margin-top: 0;
     padding: 20px;
     font-size: 19px;
     font-weight: 300;
     line-height: 30px;
-}
-.aboutBlk .abtimg {
+    width: 100%;
+  }
+
+  .aboutBlk .abtimg {
     float: none;
     margin-top: 40px;
     width: 100%;
     margin-bottom: 20px;
     padding: 0;
-}
-.servGrid li {
+  }
+
+  .servGrid li {
     width: 100% !important;
     float: none !important;
     height: 250px;
     padding: 0 !important;
     margin: 0 0 20px 0 !important;
     border: none !important;
-}
-.servGrid li img {
+  }
+
+  .servGrid li img {
     width: 100%;
     min-height: 250px !important;
     object-fit: cover !important;
-}
-.serviceban h2 {
+  }
+
+  .serviceban h2 {
     font-size: 35px;
     line-height: 40px;
     padding: 60px 0;
-}
-.hmeindustries .title h2 {
+  }
+
+  .hmeindustries .title h2 {
     font-size: 30px;
     line-height: 40px;
-}
+  }
+
+  .clients .brands .item {
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .swiper-slide {
+    min-width: 150px;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .main-title {
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+  .col-6.brands {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .clients .col-6.brands .item {
+    height: auto;
+    line-height: normal;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .call-action .content h2 {
+    font-size: 30px;
+  }
+
+  .sec-head {
+    margin: 0;
+  }
+
   .hamenu .cont-info {
     display: none;
   }
