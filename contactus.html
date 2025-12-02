@@ -78,8 +78,13 @@
 
                         <h4 class="fw-700 color-font mb-50">Get In Touch.</h4>
 
-                        <form id="contact-form" method="post" action="contact.php">
-                            <div class="messages"></div>
+                        <form id="contact-form" action="https://formsubmit.co/info@blueskieshr.com" method="POST"
+                            enctype="multipart/form-data">
+                            <input type="hidden" name="_next" value="https://www.blueskieshr.com/thankyou.html">
+                            <input type="hidden" name="_subject" value="Contact Us Form">
+                            <input type="text" name="_blueskieshr" style="display:none">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
                             <div class="controls">
                                 <div class="form-group">
                                     <input id="form_name" type="text" name="name" placeholder="Name"
@@ -114,11 +119,11 @@
                         <h3 class="wow">Visit Us.
                         </h3>
                         <div class="item wow">
-                            <h5>Opposite to Infosys Building <br> Phase III, 
+                            <h5>Opposite to Infosys Building <br> Phase III,
                                 <br>Technopark, Trivandrum.
                             </h5>
                         </div>
-                       <!-- <div class="social mt-30">
+                        <!-- <div class="social mt-30">
                             <a href="#0" class="icon">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
@@ -139,29 +144,30 @@
     </section>
 
 
-        <footer class="sub-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="item">
-                            <div class="logo">
-                                <img src="img/logo-light.png" alt="">
-                                <p class="mt-15">We develop innovative and creative products and services for our clients based out of India and abroad. </p>
-                            </div>
-                            <div class="social">
-                                <a href="#0"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#0"><i class="fab fa-twitter"></i></a>
-                                <a href="#0"><i class="fab fa-instagram"></i></a>
-                                <a href="#0"><i class="fab fa-youtube"></i></a>
-                            </div>
-                            <div class="copy-right">
-                                <p>&copy; Copyright 2022-2025 BlueSkiesHR. All Rights Reserved.</p>
-                            </div>
+    <footer class="sub-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="item">
+                        <div class="logo">
+                            <img src="img/logo-light.png" alt="">
+                            <p class="mt-15">We develop innovative and creative products and services for our clients
+                                based out of India and abroad. </p>
+                        </div>
+                        <div class="social">
+                            <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                            <a href="#0"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="copy-right">
+                            <p>&copy; Copyright 2022-2025 BlueSkiesHR. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
     </div>
 
