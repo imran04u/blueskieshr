@@ -35,7 +35,7 @@ $(function () {
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo-light.png');
+            logo.attr('src', 'img/logo-white.png');
         }
     });
 
@@ -83,7 +83,7 @@ $(function () {
             $('.topnav .menu-icon .text').addClass('open');
 
             navDark.addClass("navlit");
-            logoChan.attr('src', 'img/logo-light.png');
+            logoChan.attr('src', 'img/logo-white.png');
 
             window.addEventListener('scroll', noScroll);
 
